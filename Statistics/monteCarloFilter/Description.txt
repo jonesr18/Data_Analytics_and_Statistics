@@ -1,0 +1,4 @@
+This function performs Monte Carlo simulations and filtering. 
+
+The secondary file 'computeOutput.m' helps to show how this function can be used. Use it as the 
+input called 'inputFunc'.

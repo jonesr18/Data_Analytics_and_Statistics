@@ -1,0 +1,4 @@
+This function performs sensitivity analysis. 
+
+The secondary file 'computeOutput.m' helps to show how this function can be used. Use it as the 
+input called 'inputFunc'.

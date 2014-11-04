@@ -1,0 +1,9 @@
+This short function can be used to quickly import a CSV file which is in standardized format
+(see the file 'Example Standard CSV File.csv').
+
+This function is useful if the data is relatively simple and can be broken down into several categories.
+
+To use the function, simply type openStdCSV('file'), where 'file' is some CSV file on your path, 
+or the full pathname + filename for it. Note that the ending '.csv' is not technically required,
+but I recommend adding it nonetheless.
+
