@@ -1,0 +1,11 @@
+This function finds the critical points in a curve where there is a local minimum or maximum.
+
+To use it, pass a vector (numerical array) and a string ('min', 'max', or 'both') as inputs 1 and 2.
+
+If 'min' or 'max' are passed as the first input, then the function will directly return an array of the requested critical points. 
+
+If 'both' is passed as the second input, then the array of max and min points will be returned as a cell array 
+where the first cell contains the max points and the second contains the min points, both as arrays.
+
+The arrays of points returned are indices which, when plugged into your time vector, will return the times
+at which the minimum or maximum points occur. 
