@@ -1,0 +1,3 @@
+This function simply converts the given cell array of strings to a numerical array. 
+
+This is useful if you have imported data from a CSV file and numbers are given as strings. 

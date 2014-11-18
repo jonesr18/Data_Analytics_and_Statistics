@@ -19,7 +19,10 @@ function varargout = findCriticalPoints(curve, varargin)
     allTypes = {'max', 'min', 'mid'};
     
     % Check inputs
-    validateattributes(curve, {'numeric'}, {'1D'}, mfilename, 'curve', 1);
+    validateattributes(curve, {'numeric'}, {}, mfilename, 'curve', 1);
+    if size(curve, 1) ~= 1 && size(curve, 2) ~= 1
+        error('Curve must be a 1D vector')
+    end
     if nargin > 1
         type = cell(1, numel(varargin));
     end
