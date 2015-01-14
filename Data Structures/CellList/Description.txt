@@ -1,0 +1,8 @@
+This data structure implements a basic list using a MATLAB cell array.
+
+The following methods are currently supported:
+
+add()
+get()
+set()
+toMat()		- This is unique to MATLAB, converting the underlying cell array to a matrix (only works for numbers)
